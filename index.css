@@ -8,10 +8,10 @@
   }
 .huifont{font-family:Icing soda2}
 .envelope{
-    height: 200px;
+    height: 180px;
     width:500px;
     margin-left:2em;
-    margin-top: 1em;
+    margin-top: 2em;
     padding-top: 1em;
     color:#795548;  
     text-align: center;  
@@ -54,7 +54,7 @@
     padding: 10px; /* 内側の余白 */
     border: 5px ridge gold; /* ゴールド色の境界線 */
     display: inline-block; /* 適切な幅に調整 */
-    margin-top: 5px; /* 上部の余白 */
+    margin-top: 10px; /* 上部の余白 */
     width:450px;
     margin-left: 110px;
     background-color: white;
