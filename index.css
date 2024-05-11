@@ -8,14 +8,14 @@
   }
 .huifont{font-family:Icing soda2}
 .envelope{
-    height: 180px;
-    width:500px;
-    margin-left:2em;
-    margin-top: 2em;
+    height: 250px;
+    width:900px;
+    margin-left:50px;
+    margin-top: 30px;
     padding-top: 1em;
     color:#795548;  
     text-align: center;  
-    padding-left: 55px;
+    padding-left: 30px;
 }
 .envelope_BK{
     height: 200px;
@@ -32,33 +32,33 @@
     color:#795548;    
 }
 .big {
-    font-size:68px;
+    font-size:80px;
 }
 .small {
-    font-size: x-large;
+    font-size: 40px;
 }
 
 .wrapper {
     box-shadow:1px 1px 4px rgba(0,0,0,0.2);
     border: 5px;
-    width: 715px;
-    height: 960px;
+    width: 1000px;
+    height: 1400px;
     background-image: url("back-img.jpg");
     background-size: contain;
-    padding: 8px;
+    padding: 20px;
 
 }
 
 .event-details {
     position: relative; /* 要素を相対位置指定 */
     padding: 10px; /* 内側の余白 */
-    border: 5px ridge gold; /* ゴールド色の境界線 */
+    border: 10px ridge gold; /* ゴールド色の境界線 */
     display: inline-block; /* 適切な幅に調整 */
-    margin-top: 10px; /* 上部の余白 */
-    width:450px;
-    margin-left: 110px;
+    margin-top: 20px; /* 上部の余白 */
+    width:700px;
+    margin-left: 120px;
     background-color: white;
-    font-size:20px;
+    font-size:40px;
 }
 .event-details span {
    background:linear-gradient(transparent 60%, pink 60%);   
@@ -66,21 +66,22 @@
 
 .meeple {
 position: absolute; /* 絶対位置指定 */
-width: 100px; /* 花の画像の幅 */
+width: 200px; /* 花の画像の幅 */
 height: auto; /* 高さは自動調整 */
 }
 
 .top-right {
-top: -40px; /* 上端から-25px（枠をはみ出して配置） */
-right: -45px; /* 右端から-25px（枠をはみ出して配置） */
+top: -80px; /* 上端から-25px（枠をはみ出して配置） */
+right: -90px; /* 右端から-25px（枠をはみ出して配置） */
 }
 
 .bottom-left {
-bottom: -25px; /* 下端から-25px（枠をはみ出して配置） */
-left: -25px; /* 左端から-25px（枠をはみ出して配置） */
+bottom: -50px; /* 下端から-25px（枠をはみ出して配置） */
+left: -50px; /* 左端から-25px（枠をはみ出して配置） */
 }
 .message {
     text-align: center;
+    font-size: 24px;
 }
 .message span {
     background-color: #fff;
@@ -100,5 +101,8 @@ left: -25px; /* 左端から-25px（枠をはみ出して配置） */
 }
 .right {
     text-align: right;
-    margin-right: 100px;
+    margin-right: 200px;
+}
+.toiawase {
+    margin-top: 40px;
 }
